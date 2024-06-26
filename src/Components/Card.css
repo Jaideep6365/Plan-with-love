@@ -1,0 +1,54 @@
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    gap: 20px;
+}
+
+.image{
+    width:380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-price{
+    color: green;
+    font-size: 20px;
+}
+.tour-name{
+    font-weight: 1000;
+    font-size: 25px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.readmore{
+    color: rgb(45, 190, 239);
+    font-weight: 1000;
+    transition: 1s;
+}
+.readmore:hover{
+    cursor: pointer;
+    color: rgb(7, 86, 113);
+}
+.not-interested{
+    padding: 10px;
+    width: 250px;
+    font-size: 15px;
+    border: 3px solid #274060ff;
+    background-color: rgba(88, 152, 226, 0.5);
+    border-radius: 10px;
+    transition: 0.5s;
+    font-weight: 900;
+}
+.not-interested:hover{
+    cursor: pointer;
+    background-color: #274060ff;
+    color: white;
+}
